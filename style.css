@@ -1,0 +1,116 @@
+#about {
+    background-color: #818181;
+}
+
+.header-bg img {
+    padding-left: 60px;
+}
+.header-top {
+  /* for header-top*/
+    position: fixed;
+    width: 100%;
+	max-width: 1500px;
+    /*background-color:#0099cc;*/
+    
+}
+/* This is for the fixed header*/
+.header-top:hover {
+    background-color: rgba(255,255,255,0.9);
+}
+.socialmedia-top ul li {
+    list-style-type: none;
+    display: inline-block;
+	color:#ef6100;
+	vertical-align: top;
+	padding-right:5px;
+}
+.socialmedia-top {
+    padding-left: 80px;
+}
+li.phonenumber-top{
+    font-family: 'Merriweather';
+    font-size: 24px;
+    font-weight: normal;
+}
+li.phonenumber-top a {
+    color: orange;
+    text-decoration: none;
+}
+li.email {
+    font-family: 'Merriweather';
+    font-size: 14px;
+    font-weight: normal;
+}
+.socialmedia-top, .contact-details-top {
+    display: inline-block;
+	margin-bottom:-15px;
+}
+/* for header-top*/
+.site-nagivation ul li {
+    list-style-type: none;
+    display: inline-block;
+	padding-right:30px;
+}
+.site-nagivation {
+	font-weight: 600;
+	font-size:16px;
+	color:black;
+	font-family:'Raleway';
+	
+}
+.site-nagivation ul li a {
+    padding-left: 0;
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.site-and-navigation {
+    float: right;
+	padding-right:60px;
+}
+.site-and-navigation, .header-bg {
+    display: inline-block;
+	margin-bottom: -10px;
+    margin-top: 10px;
+}
+.site-nagivation ul li a:hover{
+  color:#ef6100;
+}
+body {
+	margin:0;
+	MAX-WIDTH: 1500PX;
+}
+
+/*CSS for Main Content*/
+.main-content {
+    padding-top: 150px;
+    background-color: #a7e5fa;
+}
+.centered-text {
+    padding-top: 100px;
+    padding-bottom:100px;
+    text-align: center;
+}
+.btn-link a {
+    background-color: #047499;
+    padding: 15px;
+    list-style-type: none;
+    text-decoration: none;
+    border-radius: 15px;
+    color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/*CSS for footer*/
+.footer{
+    text-align:center;
+    font-size: 18px;
+    background-color: #0099cc;
+    padding-top:20px;
+    padding-bottom:20px;
+}
